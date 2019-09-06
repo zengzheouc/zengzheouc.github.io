@@ -1,0 +1,138 @@
+body,ul
+{
+    margin: 0;
+    padding: 0;
+}
+/*整体样式*/
+body
+{
+    color: #1A1A1A;
+    font: 14px/1.5 Microsoft YaHei,Arial,Helvetica,sans-serif;
+}
+a
+{
+    text-decoration: none;
+}
+a:link
+{
+    color: black;
+}
+a:visited
+{
+    color: purple;
+}
+a:hover
+{
+    color: red;
+    text-decoration: underline;
+}
+a:active
+{
+    color: red;
+}
+#gif
+{
+    float: left
+}
+body
+{
+    text-align: center;
+    overflow-x: hidden;
+}
+#header
+{
+    height: 94px;
+    background-image: linear-gradient(to bottom,#E6F7EF,#F5F7FB);
+    text-align: center;
+}
+.header-wrapper
+{
+    width: 1000px;
+    height: 94px;
+    margin: 0 auto;
+    text-align: left;
+}
+#logo
+{
+    float: left;
+}
+#logo a
+{
+    width: 94px;
+    height: 94px;
+}
+#nav
+{
+    float: right;
+}
+/*主导航*/
+.main-nav
+{
+    list-style: none;
+    width: 720px;
+    height: 94px;
+}
+.main-nav>li
+{
+    float:left;
+    position:relative;
+}
+.main-nav>li>div
+{
+    position: relative;
+    overflow: hidden;
+    width: 120px;
+    height: 94px;
+    line-height: 94px;
+    text-align: center;
+}
+.main-nav>li>div>span,.main-nav>li>div>a
+{
+    /*解决覆盖文字问题*/
+    position: relative;
+    z-index: 100;
+    display: block;
+    width: 120px;
+    height: 94px;
+    cursor: pointer;
+}
+li a:hover
+{
+    background-color: #d6dbfe;
+    font-size: 120%;
+}
+#wrapper
+{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+#beach
+{
+    width: 1000px;
+}
+p
+{
+    font-size: larger;
+    text-align: center;
+    margin-top: 100px;
+}
+table
+{
+    width: 80%;
+}
+table, tr, td
+{
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+td
+{
+    border: 1px solid green;
+    padding: 10px;
+}
+tr:hover
+{
+    background-color: #b3fffd;
+}
